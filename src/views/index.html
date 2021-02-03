@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Index</title>
+</head>
+<body background="https://thumbs.dreamstime.com/b/fundo-abstrato-com-n%C3%BAmeros-dos-desenhos-animados-56304941.jpg">
+  <main style="height: 90vh;"> 
+    <section class="container rounded mt-3 p-5" style="background-color: bisque;">
+    
+        <h1 style="color:darkred; font-family:'Verdana',sans-serif;">Calculadora</h1>
+    
+        <hr color="darkred">
+    
+    <form action=" " method="POST">
+
+        <input type="number" placeholder="Digite aqui o número desejado" name="input1" class="form-control my-4 shadow" > 
+        <input type="number" placeholder="Digite aqui o número desejado" name="input2" class="form-control my-4 shadow"> 
+        
+        <input type="radio" class="btn-check" name ="opera" id="soma" value="soma" >
+        <label class="btn btn-info shadow" for="soma">Soma</label>
+
+        <input type="radio" class="btn-check" name ="opera" id="sub" value="sub" >
+        <label  class="btn btn-warning shadow" for="sub">Subtração</label>
+
+        <input type="radio" class="btn-check" name ="opera" id="multi" value="multi" >
+        <label  class="btn btn-success shadow" for="multi">Multiplicação</label>
+
+        <input type="radio" class="btn-check" name ="opera" id="divisao" value="divisao" >
+        <label class="btn btn-primary shadow" for="divisao">Divisão</label>
+
+        <br>
+        <div class="mt-2">  
+            <button class="btn btn-outline-primary shadow">Resultado</button>   
+        </div>
+        <div class="mt-2">
+         <button class="btn  btn-outline-danger shadow" type="reset">Resetar</button>
+        </div> 
+
+    </form>
+
+</section>
+</main> 
+
+<footer>
+   <p class="text-white text-center p-3" style="background-color: purple;"> Luciana Oliveira, 2021</p>
+</footer>
+</body>
+</html>
