@@ -12,7 +12,7 @@ def home():
             num1=request.form["input1"]
             num2=request.form["input2"]
             opera=request.form["opera"]
-        # cálculos
+       
             soma = int(num1) + int(num2)
             sub = int(num1) - int(num2)
             multi = int(num1) * int(num2)
