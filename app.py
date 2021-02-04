@@ -21,8 +21,10 @@ def home():
 
             if(opera == "soma"):    
                return str(soma)
+
             elif(opera == "sub"):
                return str(sub)
+               
             elif(opera == "multi"):
                 return str(multi)
                 #return easygui.msgbox(str(multi), title="Resultado")
