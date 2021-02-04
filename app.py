@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+#criação de caixa de alerta -->> import easygui <<--
 
 
 app = Flask(__name__, template_folder="./src/views")
@@ -23,9 +24,13 @@ def home():
             elif(opera == "sub"):
                return str(sub)
             elif(opera == "multi"):
-               return str(multi)
+                return str(multi)
+                #return easygui.msgbox(str(multi), title="Resultado")
+               
             else:
                 return str(divisao)
+               #return easygui.msgbox(str(divisao), title="Resultado")
+            
         else:
             return render_template("empty.html")
 
