@@ -24,7 +24,7 @@ def home():
 
             elif(opera == "sub"):
                return str(sub)
-               
+
             elif(opera == "multi"):
                 return str(multi)
                 #return easygui.msgbox(str(multi), title="Resultado")
@@ -37,7 +37,7 @@ def home():
             return render_template("empty.html")
 
 @app.errorhandler(404)
-def note_foud(error):
+def not_found(error):
     return render_template("error.html")
 
 app.run(port=8080, debug=True)
